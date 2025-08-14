@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+#main{
+    display: flex;
+}
+
+#logo{
+    background-color: #7118c5;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    align-content: center;
+    padding-left: 4px;
+}
+
+#logo img{
+    width: 30px;
+    height: 30px;
+}
+
+#div1{
+    display: flex;
+}
+
+#div1 p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight:700;
+    margin-left: 10px;
+}
+
+#md1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#div2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border-radius: 7px;
+    align-items: center;
+    height: 40px;
+}
+
+#div2 img{
+    width: 25px;
+    height: 25px;
+}
+
+#pg1{
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.generic-div{
+    display: flex;
+    margin-top: 10px;
+    width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 7px;
+    align-items: center;
+    height: 40px;
+}
+
+.generic-div img{
+    width: 25px;
+    height: 25px;
+}
+
+.generic-div p{
+    margin-left: 37px;
+    font-size: 15px;
+}
+
+#main{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#record{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+#spec-p{
+    font-size: 25px;
+    margin-bottom: 18px;
+    margin-left: 90px;
+}
+
+#md2{
+    background-color: white;
+    width: 100%;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+#wel{
+    font-size: 14px;
+}
+
+#sd1{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+#wel2{
+    background-color: white;
+    width: 620px;
+    height: 40px;
+    box-shadow: 1px 1px 8px 1px #888888;
+    border-radius: 10px;
+    margin-left: 50px;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 14px;
+    display: flex;
+}
+
+#wel2 img{
+    width: 20px;
+    height: 20px;
+}
+
+#wel2 p{
+    margin-left: 10px;
+}
+
+hr{
+    border-color: rgb(255, 253, 253);
+}
+
+#sd2{
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 1050px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#px1{
+    font-size: 18px;
+}
+
+#px2{
+    font-size: 13px;
+}
+
+.line{
+    height: 40px;
+    width: 1px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#board-stuff{
+    display: flex;
+}
+
+#px3{
+    font-size: 18px;
+}
+
+#px4{
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+#circle{
+    display: flex;
+    width: 210px;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-bottom: 40px;
+}
+
+#circle1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: brown;
+    position: absolute;
+    margin-left: 50px;
+    z-index: 7;
+}
+
+#circle2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    margin-left: 80px;
+    z-index: 8;
+}
+
+#circle3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    margin-left: 110px;
+    z-index: 9;
+}
+
+#circle4{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: purple;
+    position: absolute;
+    margin-left: 140px;
+    z-index: 10;
+}
+
+#circle5{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    margin-left: 170px;
+    z-index: 11;
+}
+
+#b1{
+    border: 1px solid grey;
+    background-color: white;
+    width: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#b2{
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+    width: 120px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 35px;
+    align-content: center;
+    border-radius: 10px;
+    font-size: 15px; 
+    margin-left: 10px;
+}
+
+#buttons{
+    display: flex;
+
+}
+
+#sd3{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#item1{
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+#it1{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+#it1 img{
+    width: 20px;
+    height: 20px;    
+}
+
+#imgs{
+    display: flex;
+}
+
+#hr1{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#it2{
+    background-color: hsl(199, 77%, 74%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: hsl(199, 77%, 34%);
+}
+
+#b3{
+    background-color: hsl(199, 77%, 89%);
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    color: hsl(199, 77%, 34%);
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+#b4{
+    background-color: hsl(199, 77%, 89%);
+    border: 1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 14px;
+    color: hsl(199, 77%, 34%);
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+#nb{
+    display: flex;
+}
+
+#it2 img{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+    margin-top: 5px;
+    border: 1px solid hsl(199, 77%, 34%);
+    border-radius: 8px;
+}
+
+#nb2{
+    font-size: 17px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+#nb3{
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+#nb4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#nb5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.balls{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: hsl(199, 77%, 34%);
+}
+
+.ballss{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: hsl(199, 77%, 64%);
+}
